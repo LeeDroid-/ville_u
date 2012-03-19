@@ -60,7 +60,7 @@ void *return_address(unsigned int level)
 
 #if 0
 #if defined(CONFIG_ARM_UNWIND)
-#warning "TODO: return_address should use unwind tables"
+//#warning "TODO: return_address should use unwind tables"
 #endif
 #endif
 
